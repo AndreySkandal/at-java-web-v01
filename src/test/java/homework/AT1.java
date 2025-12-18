@@ -8,11 +8,11 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 /*
- TODO: уточнить, достаточно ли для учебных автотестов держать всю логику в одном классе и
- нужно ли оборачивать в Step для алюр?
+ TODO: уточнить, достаточно ли для учебных АТ держать всю логику в одном классе и
+ нужно ли оборачивать в Step для Алюр?
  */
 
-public class FiveAT {
+public class AT1 {
     @Test
     void AT_1 () {
 
