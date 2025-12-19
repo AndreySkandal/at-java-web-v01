@@ -17,6 +17,7 @@ public class AT1 {
     void AT_1 () {
 
         Configuration.pageLoadTimeout = 60000; // временное решение, так как страница долго грузится
+        //Configuration.headless = true; //как вариант безголовый режим, чтоб не ждать отрисовки
 
         open("https://www.specialist.ru/");
         $x("//button[contains(text(),'Согласен(-на)')]")
