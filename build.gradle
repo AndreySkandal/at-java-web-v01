@@ -31,4 +31,5 @@ tasks.withType(JavaCompile).configureEach {
 }
 test {
     useJUnitPlatform()
+    systemProperty 'selenide.driverManagerEnabled', 'true'
 }

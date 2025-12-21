@@ -17,4 +17,11 @@ public class SimpleWikiTest {
 
         sleep(2000);
     }
+
+
+    @Test
+    void test03() {
+        open("https://slqa.ru/cases/SimpleForm/");
+        $("body").shouldHave(text("Томас Фуллер"));
+    }
 }
